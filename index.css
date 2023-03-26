@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+body>div>span {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+body>div._0001 {
+    background-image: linear-gradient(to right, red , yellow);
+    padding: 20px;
+}
+
+body>div._0001>span:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+body>div._0001>span:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body>div._0001>span:nth-child(3)>a {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* -------- */
+
+body>div._0002>span:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+body>div._0002>span:nth-child(3) {
+    text-align: center;
+}
