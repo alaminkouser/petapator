@@ -8,8 +8,10 @@ body>div>span {
     padding-bottom: 5px;
 }
 
+/* -------- */
+
 body>div._0001 {
-    background-image: linear-gradient(to right, red , yellow);
+    background-image: linear-gradient(to right, red, yellow);
     padding: 20px;
 }
 
@@ -39,4 +41,90 @@ body>div._0002>span:nth-child(2) {
 
 body>div._0002>span:nth-child(3) {
     text-align: center;
+}
+
+body>div._0002>span:nth-child(4) {
+    padding: 20px;
+    text-align: center;
+}
+
+body>div._0002>span:nth-child(4)>a {
+    padding: 10px;
+    border: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 2px 3px 8px;
+}
+
+/* -------- */
+
+body>div._0003 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>div._0003>span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+body>div._0003>span:nth-child(2),
+body>div._0003>span:nth-child(4),
+body>div._0003>span:nth-child(6) {
+    font-size: 1.2rem;
+}
+
+/* -------- */
+
+body>div._0004 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>div._0004>span:nth-child(1) {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+body>div._0004>span:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    body>div._0004>span:nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+    body>div._0004>span:nth-child(2)>span {
+        width: 100%;
+        background-color: red;
+    }
+}
+
+body>div._0004>span:nth-child(2)>span {
+    width: 350px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 2px 3px 8px;
+    margin: 5px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+    body>div._0004>span:nth-child(2) {
+        display: block;
+        justify-content: center;
+    }
+    body>div._0004>span:nth-child(2)>span {
+        width: calc(100% - 30px);
+    }
+}
+
+body>div._0004>span:nth-child(2)>span>span {
+    position: absolute;
+    bottom: 10px;
 }
