@@ -98,6 +98,7 @@ body>div._0004>span:nth-child(2) {
         display: flex;
         justify-content: center;
     }
+
     body>div._0004>span:nth-child(2)>span {
         width: 100%;
         background-color: red;
@@ -119,6 +120,7 @@ body>div._0004>span:nth-child(2)>span {
         display: block;
         justify-content: center;
     }
+
     body>div._0004>span:nth-child(2)>span {
         width: calc(100% - 30px);
     }
@@ -127,4 +129,52 @@ body>div._0004>span:nth-child(2)>span {
 body>div._0004>span:nth-child(2)>span>span {
     position: absolute;
     bottom: 10px;
+}
+
+/* -------- */
+
+body>div._0005 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>div._0005>span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* -------- */
+
+body>div._0006 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>div._0006>span:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+body>div._0006>span:nth-child(2)>span {
+    display: block;
+}
+
+body>div._0006>span:nth-child(2)>span:nth-child(odd) {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+body>div._0006>span:nth-child(2)>span:nth-child(even) {
+    padding-bottom: 1rem;
 }
