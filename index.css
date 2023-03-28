@@ -178,3 +178,51 @@ body>div._0006>span:nth-child(2)>span:nth-child(odd) {
 body>div._0006>span:nth-child(2)>span:nth-child(even) {
     padding-bottom: 1rem;
 }
+
+/* -------- */
+
+body>div._0007 {
+    background-image: linear-gradient(to right, red, yellow);
+    padding: 20px;
+}
+
+body>div._0007>span {
+    text-align: center;
+}
+
+body>div._0007>span:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+body>div._0007>span:nth-child(3) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body>div._0007>span:nth-child(3)>a {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* -------- */
+
+body>div._0008>span:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+body>div._0008>span:nth-child(3) {
+    padding: 20px;
+    text-align: center;
+}
+
+body>div._0008>span:nth-child(3)>a {
+    padding: 10px;
+    border: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 2px 3px 8px;
+}
