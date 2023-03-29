@@ -33,6 +33,10 @@ body>div._0001>span:nth-child(3)>a {
 
 /* -------- */
 
+body>div._0002>span:nth-child(1) {
+    text-align: center;
+}
+
 body>div._0002>span:nth-child(2) {
     font-size: 1.5rem;
     font-weight: bold;
@@ -57,6 +61,12 @@ body>div._0002>span:nth-child(4)>a {
     box-shadow: rgba(0, 0, 0, 0.24) 2px 3px 8px;
 }
 
+body>div._0002>span:nth-child(5) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
 /* -------- */
 
 body>div._0003 {
@@ -70,9 +80,15 @@ body>div._0003>span:nth-child(1) {
 }
 
 body>div._0003>span:nth-child(2),
-body>div._0003>span:nth-child(4),
-body>div._0003>span:nth-child(6) {
+body>div._0003>span:nth-child(5),
+body>div._0003>span:nth-child(8) {
     font-size: 1.2rem;
+}
+
+body>div._0003>span:nth-child(3),
+body>div._0003>span:nth-child(7),
+body>div._0003>span:nth-child(10) {
+    text-align: center;
 }
 
 /* -------- */
